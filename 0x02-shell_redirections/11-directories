@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -type d -not name '.' | wc -l
+find /0x02-shell_redirections/ -type d -not name '.' | wc -l
