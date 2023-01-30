@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+# This script is displaying num from 1 - 20
+
+i=0;
+while [ $i -le 20 ];
+do
+	echo "$i"
+	case "$i" in
+		4)
+			echo "bad luck from China";;
+		9)
+			echo "bad luck from Japan";;
+		10)
+			echo "bad luck from Italy";;
+	esac
+	((i++))
+done
