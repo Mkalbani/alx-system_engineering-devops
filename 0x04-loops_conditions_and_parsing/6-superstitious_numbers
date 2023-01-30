@@ -6,11 +6,11 @@ while [ $i -lt 20 ];
 do
 	echo "$i"
 	case "$i" in
-		4)
+		"4")
 			echo "bad luck from China";;
-		9)
+		"9")
 			echo "bad luck from Japan";;
-		10)
+		"10")
 			echo "bad luck from Italy";;
 	esac
 	((i++))
