@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Displays "To infinity and beyond" indefinitely
+
+pkill -9 "bash ./7-highlander" -f
