@@ -1,2 +1,2 @@
 #!/usr/bin/env ruby
-puts ARGV[0].(/hbt{2,5}n/).join
+puts ARGV[0].(/hbtt{1,4}n/).join
