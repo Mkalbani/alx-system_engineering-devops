@@ -10,9 +10,9 @@ def recurse(subreddit, hot_list=[], after="", count=0):
 		"User-Agent": "Mkothm"
 	}
 	params = {
-	"after": after,
-	"count": count,
-	"limit": 100
+		"after": after,
+		"count": count,
+		"limit": 100
 	}
 	response = requests.get(url, headers=headers, params=params,
 	allow_redirects=False)
