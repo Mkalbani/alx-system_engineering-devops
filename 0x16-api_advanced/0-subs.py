@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Number of subs """
+"""Number of subscribers therre are """
 
 
 def number_of_subscribers(subreddit):
